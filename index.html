@@ -1,9 +1,124 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Home</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
 
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#getstarted">Get started</a></li>
+        <li><a href="#about">About us</a></li>
+      </ul>
+    </nav>
+
+    <form id="#getstarted">
+      <input id="searchbar" type="text">
+      <button type="button" onclick="search_recipes()">Search</button>
+    </form>
+
+    <div id="recipes-container">
+      <div class="recipe">
+        <h3>Brownies</h3>
+        <img src="https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="100px"><br>
+        <a href="recipes/brownies.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Mac and Cheese</h3>
+        <img src="https://images.pexels.com/photos/5107163/pexels-photo-5107163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="100px"><br>
+        <a href="recipes/mac-and-cheese.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Pizza</h3>
+        <img src="https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="100px"><br>
+        <a href="recipes/pizza.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Cookies</h3>
+        <img src="https://images.pexels.com/photos/4110541/pexels-photo-4110541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="100px"><br>
+        <a href="recipes/cookies.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Alfredo Pasta</h3>
+        <img src="https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/alfredo-pasta.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Red Pasta</h3>
+        <img src="https://images.pexels.com/photos/14737/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/red-pasta.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Chicken tenders and nuggets</h3>
+        <img src="https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="100px"><br>
+        <a href="recipes/chicken-tenders.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Fries</h3>
+        <img src="https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="100px"><br>
+        <a href="recipes/fries.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Burgers</h3>
+        <img src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/burgers.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Nachos</h3>
+        <img src="https://images.pexels.com/photos/1108775/pexels-photo-1108775.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/nachos.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Quesadilla</h3>
+        <img src="https://images.pexels.com/photos/6605198/pexels-photo-6605198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/quesadillia.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Mango Ice cream</h3>
+        <img src="https://images.pexels.com/photos/5060450/pexels-photo-5060450.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/mango-icecream.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Chocolate Ice cream</h3>
+        <img src="https://images.pexels.com/photos/126790/pexels-photo-126790.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/choc-icecream.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Strawberry Ice cream</h3>
+        <img src="https://images.pexels.com/photos/5060942/pexels-photo-5060942.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/strawberry-icecream.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Popsicles</h3>
+        <img src="https://images.pexels.com/photos/8468316/pexels-photo-8468316.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/popsicles.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Hot Chocolate</h3>
+        <img src="https://images.pexels.com/photos/3551717/pexels-photo-3551717.png?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/hot-chocolate.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Tropical Smoothie</h3>
+        <img src="https://images.pexels.com/photos/775030/pexels-photo-775030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/smoothie.html"><button>See recipe</button></a>
+      </div>
+      <div class="recipe">
+        <h3>Fried Rice</h3>
+        <img src="https://images.pexels.com/photos/3926133/pexels-photo-3926133.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="100px"><br>
+        <a href="recipes/fried-rice.html"><button>See recipe</button></a>
+      </div>
+    </div>
+
+    <h1 id="#about">About us</h1>
+    <p>According to the CDC, 1 in 5 children have childhood obesity. There are many factors that can be attributed to childhood obesity, including increased screen time, genetics, and sleep cycles. However, childrens’ lifestyle is one of the most prominent contributors to childhood obesity, especially unhealthy eating habits and a lack of exercise. Childhood obesity can have severe consequences for the future. These include elevated blood pressure and cholesterol, insulin resistance, anxiety, etc. This is where we come in. Healthify aspires to help prevent childhood obesity by serving as a one-stop location for kids to engage in a healthy lifestyle by providing healthy, yet delicious recipes and new exercises every day. Together, we can reduce childhood obesity in America! </p>
+
+    <script src="search.js"></script>
   </body>
 </html>
